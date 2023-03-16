@@ -9,7 +9,7 @@ class _Config:
 
     base_url: str = "https://swapi.dev/api/"
     resources: Collection[str] = ("films", "planets", "people")
-    working_directory: Path = Path(__file__).parent / "data"
+    working_directory: Path = Path(__file__).parent.parent / "data"
     database_name: str = "swapi_movie_appearance.db"
 
 
